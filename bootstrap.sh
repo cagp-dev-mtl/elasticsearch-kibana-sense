@@ -34,3 +34,11 @@ sudo update-rc.d kibana defaults 95 10
 
 # Install ssense (http://192.168.33.99:5601/app/sense)
 sudo /opt/kibana/bin/kibana plugin --install elastic/sense
+
+# Install pip
+yes | sudo apt-get install python-pip
+
+# Install python data handling libraries
+sudo pip install petl
+sudo pip install czipfile
+sudo pip install pycurl
