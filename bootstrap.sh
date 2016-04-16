@@ -37,3 +37,11 @@ sudo /opt/kibana/bin/kibana plugin --install elastic/sense
 
 # Install plugin head
 sudo /usr/share/elasticsearch/bin/plugin install mobz/elasticsearch-head
+
+# Install pip
+yes | sudo apt-get install python-pip
+
+# Install python data handling libraries
+sudo pip install petl
+sudo pip install czipfile
+sudo pip install pycurl
