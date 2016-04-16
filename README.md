@@ -12,6 +12,9 @@ https://qbox.io/blog/qbox-a-vagrant-virtual-machine-for-elasticsearch-2-x
 ######Interact with Kibana
 http://192.168.33.99:5601
 
+######Visualize your cluster and indices with 'head':
+>http://192.168.33.99:9200/_plugin/head/
+
 ######Interact with Elastic search through sense GUI
 >http://192.168.33.99:5601/app/sense
 

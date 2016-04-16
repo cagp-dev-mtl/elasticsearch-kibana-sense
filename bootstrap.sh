@@ -34,3 +34,6 @@ sudo update-rc.d kibana defaults 95 10
 
 # Install ssense (http://192.168.33.99:5601/app/sense)
 sudo /opt/kibana/bin/kibana plugin --install elastic/sense
+
+# Install plugin head
+sudo /usr/share/elasticsearch/bin/plugin install mobz/elasticsearch-head
