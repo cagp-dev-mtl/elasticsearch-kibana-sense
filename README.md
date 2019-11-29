@@ -26,3 +26,6 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_
 
 ### You can generate custom JSON entries for Elasticsearch with:
 http://www.json-generator.com/
+
+Copyright.
+
